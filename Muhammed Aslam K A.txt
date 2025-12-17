@@ -1,0 +1,236 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammed Aslam K A | IT / CCTV / Networking</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #0f172a;
+      --secondary: #2563eb;
+      --light: #f8fafc;
+      --gray: #64748b;
+    }* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: var(--light);
+  color: var(--primary);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem 1.5rem;
+}
+
+header {
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: #fff;
+  padding: 3rem 1.5rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+header h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #cbd5f5;
+  margin-top: 0.5rem;
+}
+
+.contact {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+.contact a {
+  color: #93c5fd;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+section {
+  margin-top: 3rem;
+}
+
+section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid var(--secondary);
+  padding-left: 0.75rem;
+}
+
+.card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  margin-bottom: 1.5rem;
+}
+
+ul {
+  list-style: none;
+  margin-top: 0.5rem;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--secondary);
+  font-weight: bold;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.tag {
+  display: inline-block;
+  background: #e0e7ff;
+  color: #1e3a8a;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  margin: 0.3rem;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: var(--gray);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+}
+
+  </style>
+</head>
+<body>  <header>
+    <div class="container">
+      <h1>Muhammed Aslam K A</h1>
+      <h2>IT / CCTV / Networking Technician</h2>
+      <div class="contact">
+        <span>📍 Ernakulam, Kerala</span><br />
+        <a href="tel:7558863814">📞 7558863814</a>
+        <a href="mailto:aslam36kbk@gmail.com">✉️ aslam36kbk@gmail.com</a>
+        <a href="https://www.linkedin.com/in/muhammed-aslam-k-a-1b263b24a" target="_blank">🔗 LinkedIn</a>
+      </div>
+    </div>
+  </header>  <main class="container"><section>
+  <h3>Professional Summary</h3>
+  <div class="card">
+    <p>
+      Entry-level IT & CCTV Technician with hands-on experience installing and configuring over
+      <strong>300+ surveillance cameras</strong>. Skilled in networking, DVR/NVR setup, IP camera
+      configuration, system maintenance, and technical support. Strong problem-solving ability
+      with a structured and customer-focused approach.
+    </p>
+  </div>
+</section>
+
+<section>
+  <h3>Technical Skills</h3>
+  <div class="card skills">
+    <div>
+      <span class="tag">CCTV Installation</span>
+      <span class="tag">CCTV Maintenance</span>
+      <span class="tag">DVR / NVR Setup</span>
+      <span class="tag">IP Cameras</span>
+      <span class="tag">Structured Cabling</span>
+    </div>
+    <div>
+      <span class="tag">Computer Networking</span>
+      <span class="tag">Network Troubleshooting</span>
+      <span class="tag">Network Monitoring</span>
+      <span class="tag">Remote Access</span>
+    </div>
+    <div>
+      <span class="tag">IT Support</span>
+      <span class="tag">Computer Hardware</span>
+      <span class="tag">Windows OS</span>
+      <span class="tag">Linux (Basic)</span>
+      <span class="tag">Python</span>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h3>Professional Experience</h3>
+  <div class="card">
+    <h4>CCTV Technician / Networking – Ec Smart Automation</h4>
+    <ul>
+      <li>Installed and configured 300+ CCTV cameras across residential and commercial sites.</li>
+      <li>Performed DVR/NVR setup, camera optimization, and recording quality tuning.</li>
+      <li>Resolved connectivity and hardware issues, reducing repeat service calls by 30%.</li>
+      <li>Improved system uptime by 20% through preventive maintenance.</li>
+      <li>Configured remote access for 40+ client systems.</li>
+      <li>Provided on-site IT and technical support to customers.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h4>Junior Python Developer – Altos Technologies</h4>
+    <ul>
+      <li>Assisted in Python application development and debugging.</li>
+      <li>Created automation scripts reducing testing time by 20%.</li>
+      <li>Improved script efficiency by 15% through optimization.</li>
+      <li>Supported documentation and testing activities.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h3>Projects</h3>
+  <div class="card">
+    <ul>
+      <li><strong>Blood Bank Application:</strong> Python-based donor and stock management system.</li>
+      <li><strong>Tourism Webpage:</strong> Responsive informational website with basic UI.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h3>Education & Certifications</h3>
+  <div class="card">
+    <ul>
+      <li>Diploma in Computer Engineering – GPTC Perumbavoor (2023)</li>
+      <li>CCTV Technician – Cochin ITI</li>
+      <li>Higher Secondary – MCMHSS Pattimattom</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h3>Languages & Interests</h3>
+  <div class="card">
+    <p><strong>Languages:</strong> Malayalam, English, Hindi</p>
+    <p><strong>Interests:</strong> Networking, IT Infrastructure, Security Systems</p>
+  </div>
+</section>
+
+  </main>  <footer>
+    © 2025 Muhammed Aslam K A · All Rights Reserved
+  </footer></body>
+</html>
